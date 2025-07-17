@@ -1,12 +1,9 @@
-# Bangladesh Film Archive Scraper
+# Digitalized Bangla Films updating on IMDB and TMDB
 
-This project contains a set of Python scripts designed to scrape movie information from the [Bangladesh Film Archive](https://oldnothi.bfa.gov.bd/) website. The data is collected in both Bengali and English and is updated automatically via a GitHub Action.
+This project aims to scrape and update the latest Bangla films on IMDB and TMDB.
 
-## Latest Scraped Data
+## How to contribute?
 
-The scraped data is saved as both CSV and Markdown files. You can view the latest data by clicking the links below:
-
-* **[View Movie Data in Bengali](./data/bengali_movies.md)**
-* **[View Movie Data in English](./data/english_movies.md)**
+Click on [Bangla Movies](/data/english_movies.md) to see the list of Bangla movies with IMDB and TMDB link. You need to click on the link to see the details of the movie. If it is wrongly linked, you can update the link in the CSV file. And, write 'Yes' in the Verified column. If you find any new Bangla movie, you can add it to the CSV file.
 
 The raw CSV files are also available in the `/data` directory.
